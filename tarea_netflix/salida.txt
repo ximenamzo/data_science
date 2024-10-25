@@ -1,0 +1,166 @@
+/home/xime/PycharmProjects/data_science/.venv/bin/python /home/xime/PycharmProjects/data_science/tarea_netflix/netflix_analisis.py
+
+1. Columnas del DataFrame: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'listed_in', 'description']
+Total de filas:  8807
+
+2. Tipos de datos de cada columna:
+ show_id         object
+type            object
+title           object
+director        object
+cast            object
+country         object
+date_added      object
+release_year     int64
+rating          object
+duration        object
+listed_in       object
+description     object
+dtype: object
+
+3. Valores perdidos por columna:
+ show_id            0
+type               0
+title              0
+director        2634
+cast             825
+country          831
+date_added        10
+release_year       0
+rating             4
+duration           3
+listed_in          0
+description        0
+dtype: int64
+
+
+4. Columnas con valores perdidos que son solo cadenas: []
+4.2. Columnas con valores perdidos mixtas: ['director', 'cast', 'country', 'date_added', 'rating', 'duration']
+
+5. Identificación de los de solo cadenas y de las mixtas...
+6. Limpieza...
+7. Sustitución de valores incorrectos...
+8. Sustitución...
+
+Primeros registros del DataFrame ya corregido:
+    show_id     type                                title  \
+0       s1    Movie                 Dick Johnson Is Dead
+1       s2  TV Show                        Blood & Water
+2       s3  TV Show                            Ganglands
+3       s4  TV Show                Jailbirds New Orleans
+4       s5  TV Show                         Kota Factory
+5       s6  TV Show                        Midnight Mass
+6       s7    Movie     My Little Pony: A New Generation
+7       s8    Movie                              Sankofa
+8       s9  TV Show        The Great British Baking Show
+9      s10    Movie                         The Starling
+10     s11  TV Show  Vendetta: Truth, Lies and The Mafia
+11     s12  TV Show                     Bangkok Breaking
+12     s13    Movie                         Je Suis Karl
+13     s14    Movie     Confessions of an Invisible Girl
+14     s15  TV Show      Crime Stories: India Detectives
+
+                         director  \
+0                 Kirsten Johnson
+1                             NaN
+2                 Julien Leclercq
+3                             NaN
+4                             NaN
+5                   Mike Flanagan
+6   Robert Cullen, José Luis Ucha
+7                    Haile Gerima
+8                 Andy Devonshire
+9                  Theodore Melfi
+10                            NaN
+11              Kongkiat Komesiri
+12            Christian Schwochow
+13                  Bruno Garotti
+14                            NaN
+
+                                                 cast  \
+0                                                 NaN
+1   Ama Qamata, Khosi Ngema, Gail Mabalane, Thaban...
+2   Sami Bouajila, Tracy Gotoas, Samuel Jouy, Nabi...
+3                                                 NaN
+4   Mayur More, Jitendra Kumar, Ranjan Raj, Alam K...
+5   Kate Siegel, Zach Gilford, Hamish Linklater, H...
+6   Vanessa Hudgens, Kimiko Glenn, James Marsden, ...
+7   Kofi Ghanaba, Oyafunmike Ogunlano, Alexandra D...
+8   Mel Giedroyc, Sue Perkins, Mary Berry, Paul Ho...
+9   Melissa McCarthy, Chris O'Dowd, Kevin Kline, T...
+10                                                NaN
+11  Sukollawat Kanarot, Sushar Manaying, Pavarit M...
+12  Luna Wedler, Jannis Niewöhner, Milan Peschel, ...
+13  Klara Castanho, Lucca Picon, Júlia Gomes, Marc...
+14                                                NaN
+
+                                              country          date_added  \
+0                                       United States  September 25, 2021
+1                                        South Africa  September 24, 2021
+2                                                 NaN  September 24, 2021
+3                                                 NaN  September 24, 2021
+4                                               India  September 24, 2021
+5                                                 NaN  September 24, 2021
+6                                                 NaN  September 24, 2021
+7   United States, Ghana, Burkina Faso, United Kin...  September 24, 2021
+8                                      United Kingdom  September 24, 2021
+9                                       United States  September 24, 2021
+10                                                NaN  September 24, 2021
+11                                                NaN  September 23, 2021
+12                            Germany, Czech Republic  September 23, 2021
+13                                                NaN  September 22, 2021
+14                                                NaN  September 22, 2021
+
+    release_year rating   duration  \
+0           2020  PG-13     90 min
+1           2021  TV-MA  2 Seasons
+2           2021  TV-MA   1 Season
+3           2021  TV-MA   1 Season
+4           2021  TV-MA  2 Seasons
+5           2021  TV-MA   1 Season
+6           2021     PG     91 min
+7           1993  TV-MA    125 min
+8           2021  TV-14  9 Seasons
+9           2021  PG-13    104 min
+10          2021  TV-MA   1 Season
+11          2021  TV-MA   1 Season
+12          2021  TV-MA    127 min
+13          2021  TV-PG     91 min
+14          2021  TV-MA   1 Season
+
+                                            listed_in  \
+0                                       Documentaries
+1     International TV Shows, TV Dramas, TV Mysteries
+2   Crime TV Shows, International TV Shows, TV Act...
+3                              Docuseries, Reality TV
+4   International TV Shows, Romantic TV Shows, TV ...
+5                  TV Dramas, TV Horror, TV Mysteries
+6                            Children & Family Movies
+7    Dramas, Independent Movies, International Movies
+8                        British TV Shows, Reality TV
+9                                    Comedies, Dramas
+10  Crime TV Shows, Docuseries, International TV S...
+11  Crime TV Shows, International TV Shows, TV Act...
+12                       Dramas, International Movies
+13                 Children & Family Movies, Comedies
+14       British TV Shows, Crime TV Shows, Docuseries
+
+                                          description
+0   As her father nears the end of his life, filmm...
+1   After crossing paths at a party, a Cape Town t...
+2   To protect his family from a powerful drug lor...
+3   Feuds, flirtations and toilet talk go down amo...
+4   In a city of coaching centers known to train I...
+5   The arrival of a charismatic young priest brin...
+6   Equestria's divided. But a bright-eyed hero be...
+7   On a photo shoot in Ghana, an American model s...
+8   A talented batch of amateur bakers face off in...
+9   A woman adjusting to life after a loss contend...
+10  Sicily boasts a bold "Anti-Mafia" coalition. B...
+11  Struggling to earn a living in Bangkok, a man ...
+12  After most of her family is murdered in a terr...
+13  When the clever but socially-awkward Tetê join...
+14  Cameras following Bengaluru police on the job ...
+
+
+Process finished with exit code 0
