@@ -5,39 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f1ef84c-108c-4f2c-aa1c-f6815fb99b34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/data_science.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RLS_ejemplo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ago13_plots/barchart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ago13_plots/linechart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ago13_plots/linechart_manylineschart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ago13_plots/scatterplot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ago16_csvTxt/buscarHtml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ago16_csvTxt/escrituraArchivo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ago16_csvTxt/lecturaArchivoEspacios.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ago19_plotingCsv/countryPlot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ago19_plotingCsv/countryPlotOrderBy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ago19_plotingCsv/webScraping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cleaning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbaPandas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbaStatistic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oct07_scatter/ejemplo_knn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oct07_scatter/scatter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oct08_famosos/celebridades_bd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oct15_blobs/blobs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oct15_blobs/kmeans_ejemplo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandasExample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petaloSepalo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scatterplot_oxigeno.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sep30_arboles/arbol_decision_diabetes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/softwareStatistics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tarea_netflix/netflix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tarea_netflix/netflix_analisis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oct25_ensamble/ensemble.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oct25_ensamble/ensemble2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oct25_ensamble/ensamble.py" beforeDir="false" afterPath="$PROJECT_DIR$/oct25_ensamble/bagging.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +39,7 @@
     &quot;Python.RLS_ejemplo.executor&quot;: &quot;Run&quot;,
     &quot;Python.arbol_de_decision.executor&quot;: &quot;Run&quot;,
     &quot;Python.arbol_decision_diabetes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bagging.executor&quot;: &quot;Run&quot;,
     &quot;Python.blobss.executor&quot;: &quot;Run&quot;,
     &quot;Python.buscarHtml.executor&quot;: &quot;Run&quot;,
     &quot;Python.celebridades_bd.executor&quot;: &quot;Run&quot;,
@@ -75,6 +47,7 @@
     &quot;Python.countryPlot.executor&quot;: &quot;Run&quot;,
     &quot;Python.countryPlotOrderBy.executor&quot;: &quot;Run&quot;,
     &quot;Python.ejemplo_knn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ensamble.executor&quot;: &quot;Run&quot;,
     &quot;Python.escrituraArchivo.executor&quot;: &quot;Run&quot;,
     &quot;Python.example.executor&quot;: &quot;Run&quot;,
     &quot;Python.kmeans_ejemplo.executor&quot;: &quot;Run&quot;,
@@ -95,7 +68,7 @@
     &quot;Python.softwareStatistics.executor&quot;: &quot;Run&quot;,
     &quot;Python.webScraping.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/xime/PycharmProjects/data_science&quot;
   }
 }</component>
